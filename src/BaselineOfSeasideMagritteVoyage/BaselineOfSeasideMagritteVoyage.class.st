@@ -18,7 +18,7 @@ BaselineOfSeasideMagritteVoyage >> baseline: spec [
 	spec for: #pharo do: [
 		self packagesForPharo: spec ].
 	
-	spec group: 'default' with: #(#'Seaside-Voyage-Mongo-Core').
+	spec group: 'default' with: #(#'Seaside-Magritte-Voyage').
 ]
 
 { #category : #baselines }
