@@ -58,9 +58,9 @@ BaselineOfSeasideMagritteVoyage >> baselineForVoyage: spec [
 BaselineOfSeasideMagritteVoyage >> packagesForPharo: spec [
 
 	spec 
-		package: #'Seaside-Voyage-Mongo-Core' 
+		package: #'Seaside-Magritte-Voyage' 
 		with: [
 			spec
 				requires: #('Seaside3' 'Magritte' 'Voyage');
-				repository: 'github://hernanmd/Seaside-Voyage-Mongo' ]
+				repository: 'github://hernanmd/Seaside-Magritte-Voyage' ]
 ]
