@@ -39,7 +39,7 @@ BaselineOfSeasideMagritteVoyage >> baselineForSeaside: spec [
 		baseline: 'Seaside3' 
 		with: [
 				spec
-					repository: 'github://SeasideSt/Seaside:v3.4.3/repository';
+					repository: 'github://SeasideSt/Seaside:v3.4.6/repository';
 					loads: #('default' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI' 'REST' ) ]
 ]
 
