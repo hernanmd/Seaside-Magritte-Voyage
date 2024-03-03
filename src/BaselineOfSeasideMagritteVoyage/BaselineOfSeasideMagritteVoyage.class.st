@@ -29,7 +29,7 @@ BaselineOfSeasideMagritteVoyage >> baselineForMagritte: spec [
 		with: [
 			spec
 				repository: 'github://magritte-metamodel/magritte'; 
-				loads: #(default Seaside) ]
+				loads: #(default) ]
 ]
 
 { #category : #baselines }
@@ -60,8 +60,7 @@ BaselineOfSeasideMagritteVoyage >> packagesForPharo: spec [
 	spec 
 		package: #'Seaside-Magritte-Voyage' 
 		with: [
-			"This loads the Seaside 3 through Magritte, which has its own group for loading Seaside"
 			spec
-				requires: #("'Seaside3'" 'Magritte' 'Voyage');
+				requires: #('Seaside3' 'Magritte' 'Voyage');
 				repository: 'github://hernanmd/Seaside-Magritte-Voyage' ]
 ]
