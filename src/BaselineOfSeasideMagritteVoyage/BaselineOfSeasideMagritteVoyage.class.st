@@ -28,7 +28,7 @@ BaselineOfSeasideMagritteVoyage >> baselineForMagritte: spec [
 		baseline: 'Magritte' 
 		with: [
 			spec
-				repository: 'github://magritte-metamodel/magritte:v3.7'; 
+				repository: 'github://magritte-metamodel/magritte'; 
 				loads: #(default Seaside) ]
 ]
 
